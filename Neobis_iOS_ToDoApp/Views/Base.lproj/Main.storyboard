@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--To Do List View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ToDoListViewController" customModule="Neobis_iOS_ToDoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="LmQ-qz-fhv">
+                                <rect key="frame" x="19" y="59" width="358" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="759" id="S43-Db-Bnu"/>
+                                    <constraint firstAttribute="width" constant="358" id="jDR-Qi-uEl"/>
+                                </constraints>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gT-Kk-9XT">
+                                <rect key="frame" x="313" y="633" width="60" height="58"/>
+                                <color key="backgroundColor" name="AccentColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="2XH-jW-fjb"/>
+                                    <constraint firstAttribute="height" constant="58" id="T2w-vg-cO8"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="pencil" catalog="system"/>
+                                <connections>
+                                    <action selector="editButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JrS-ak-MRr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6kd-zL-ykB">
+                                <rect key="frame" x="313" y="723" width="60" height="58"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="VAe-a1-ozo"/>
+                                    <constraint firstAttribute="height" constant="58" id="lks-oc-3ex"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system"/>
+                                <connections>
+                                    <action selector="addButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4Wp-Ib-FmR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6kd-zL-ykB" secondAttribute="trailing" constant="20" id="4t3-Kf-UGT"/>
+                            <constraint firstItem="LmQ-qz-fhv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="7z1-Rd-JEG"/>
+                            <constraint firstItem="6kd-zL-ykB" firstAttribute="top" secondItem="0gT-Kk-9XT" secondAttribute="bottom" constant="32" id="CLq-7z-XKb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6kd-zL-ykB" secondAttribute="bottom" constant="37" id="MD3-4Y-QPK"/>
+                            <constraint firstItem="6kd-zL-ykB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="313" id="emb-Be-eP9"/>
+                            <constraint firstItem="0gT-Kk-9XT" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="574" id="h9F-Jf-kw8"/>
+                            <constraint firstItem="LmQ-qz-fhv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="19" id="iBA-2y-fDW"/>
+                            <constraint firstItem="0gT-Kk-9XT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="313" id="k9D-yM-M2y"/>
+                            <constraint firstItem="LmQ-qz-fhv" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="mGk-y4-tGp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0gT-Kk-9XT" secondAttribute="trailing" constant="20" id="n1E-kV-SES"/>
+                            <constraint firstItem="6kd-zL-ykB" firstAttribute="top" secondItem="0gT-Kk-9XT" secondAttribute="bottom" constant="32" id="yvv-qM-jWV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LmQ-qz-fhv" secondAttribute="trailing" constant="16" id="z1m-el-CfS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tasksView" destination="LmQ-qz-fhv" id="Qr7-bG-epY"/>
+                        <segue destination="9bP-U5-KXJ" kind="presentation" identifier="AddTodoItemSegue" id="ZqX-X8-zel"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="859" y="-643"/>
+        </scene>
+        <!--Add Todo Item View Controller-->
+        <scene sceneID="0Bg-6Q-qjZ">
+            <objects>
+                <viewController id="9bP-U5-KXJ" customClass="AddTodoItemViewController" customModule="Neobis_iOS_ToDoApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="VwO-Kn-D8B">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3p-Kb-IuF">
+                                <rect key="frame" x="16" y="20" width="86" height="35"/>
+                                <color key="tintColor" red="0.64118328229668209" green="0.10094335542650368" blue="0.10440833527464442" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Отмена"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tk2-zp-JUl">
+                                <rect key="frame" x="16" y="93" width="361" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="WYc-so-dMy"/>
+                                    <constraint firstAttribute="width" constant="361" id="jG6-fC-7q1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IYH-lM-gj3">
+                                <rect key="frame" x="16" y="175" width="361" height="593"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t3L-eQ-NOS">
+                                <rect key="frame" x="267" y="20" width="110" height="35"/>
+                                <color key="tintColor" name="AccentColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Сохранить"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Le3-l3-8Pd"/>
+                        <color key="backgroundColor" red="0.86544245973075784" green="0.86544245973075784" blue="0.86544245973075784" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="t3L-eQ-NOS" firstAttribute="top" secondItem="Le3-l3-8Pd" secondAttribute="top" constant="20" id="2nU-fi-xyV"/>
+                            <constraint firstItem="c3p-Kb-IuF" firstAttribute="leading" secondItem="Le3-l3-8Pd" secondAttribute="leading" constant="16" id="3dz-VZ-7ec"/>
+                            <constraint firstItem="Tk2-zp-JUl" firstAttribute="leading" secondItem="Le3-l3-8Pd" secondAttribute="leading" constant="16" id="4Uh-lP-Rrl"/>
+                            <constraint firstItem="Le3-l3-8Pd" firstAttribute="trailing" secondItem="t3L-eQ-NOS" secondAttribute="trailing" constant="16" id="AZH-29-vvC"/>
+                            <constraint firstItem="t3L-eQ-NOS" firstAttribute="leading" secondItem="c3p-Kb-IuF" secondAttribute="trailing" constant="165" id="JWJ-rC-T4N"/>
+                            <constraint firstItem="Le3-l3-8Pd" firstAttribute="bottom" secondItem="IYH-lM-gj3" secondAttribute="bottom" constant="74" id="Jn5-BF-qwP"/>
+                            <constraint firstItem="Le3-l3-8Pd" firstAttribute="trailing" secondItem="IYH-lM-gj3" secondAttribute="trailing" constant="16" id="Kgn-Nx-Zz0"/>
+                            <constraint firstItem="Tk2-zp-JUl" firstAttribute="top" secondItem="c3p-Kb-IuF" secondAttribute="bottom" constant="38" id="MWk-mQ-Clr"/>
+                            <constraint firstItem="Tk2-zp-JUl" firstAttribute="top" secondItem="c3p-Kb-IuF" secondAttribute="bottom" constant="38" id="OjA-lv-sbJ"/>
+                            <constraint firstItem="Tk2-zp-JUl" firstAttribute="top" secondItem="t3L-eQ-NOS" secondAttribute="bottom" constant="38" id="VLC-sK-rsy"/>
+                            <constraint firstItem="IYH-lM-gj3" firstAttribute="top" secondItem="Tk2-zp-JUl" secondAttribute="bottom" constant="42" id="dqF-ol-itt"/>
+                            <constraint firstItem="IYH-lM-gj3" firstAttribute="leading" secondItem="Le3-l3-8Pd" secondAttribute="leading" constant="16" id="gnz-mp-lfS"/>
+                            <constraint firstItem="IYH-lM-gj3" firstAttribute="top" secondItem="Tk2-zp-JUl" secondAttribute="bottom" constant="42" id="kxC-tR-jQQ"/>
+                            <constraint firstItem="t3L-eQ-NOS" firstAttribute="leading" secondItem="c3p-Kb-IuF" secondAttribute="trailing" constant="165" id="o3S-rk-G4o"/>
+                            <constraint firstItem="Le3-l3-8Pd" firstAttribute="trailing" secondItem="Tk2-zp-JUl" secondAttribute="trailing" constant="16" id="tkN-YF-w4Q"/>
+                            <constraint firstItem="c3p-Kb-IuF" firstAttribute="top" secondItem="Le3-l3-8Pd" secondAttribute="top" constant="20" id="zQ6-4A-peD"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="descriptionTextField" destination="IYH-lM-gj3" id="3ID-Rk-2Zl"/>
+                        <outlet property="titleTextField" destination="Tk2-zp-JUl" id="TfH-fm-mVp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pBR-nq-dG3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1817.5572519083969" y="-644.36619718309862"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pencil" catalog="system" width="128" height="113"/>
+        <image name="plus" catalog="system" width="128" height="113"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		0428DD0C2A7F7EC500327B12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428DD0B2A7F7EC500327B12 /* AppDelegate.swift */; };
 		0428DD0E2A7F7EC500327B12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428DD0D2A7F7EC500327B12 /* SceneDelegate.swift */; };
-		0428DD102A7F7EC500327B12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428DD0F2A7F7EC500327B12 /* ViewController.swift */; };
+		0428DD102A7F7EC500327B12 /* ToDoListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428DD0F2A7F7EC500327B12 /* ToDoListViewController.swift */; };
 		0428DD132A7F7EC500327B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0428DD112A7F7EC500327B12 /* Main.storyboard */; };
 		0428DD152A7F7EC600327B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0428DD142A7F7EC600327B12 /* Assets.xcassets */; };
 		0428DD182A7F7EC600327B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0428DD162A7F7EC600327B12 /* LaunchScreen.storyboard */; };
-		0428DD232A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428DD222A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests.swift */; };
-		0428DD2D2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428DD2C2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests.swift */; };
-		0428DD2F2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428DD2E2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITestsLaunchTests.swift */; };
+		045AF7482A7F9D1500ED0213 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045AF7472A7F9D1500ED0213 /* ToDoItem.swift */; };
+		045AF74A2A7F9E3700ED0213 /* AddToDoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045AF7492A7F9E3700ED0213 /* AddToDoItemViewController.swift */; };
+		045AF74C2A7F9F2700ED0213 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045AF74B2A7F9F2700ED0213 /* TaskCell.swift */; };
+		045AF7502A7FA05800ED0213 /* TaskCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 045AF74F2A7FA05800ED0213 /* TaskCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +40,17 @@
 		0428DD082A7F7EC500327B12 /* Neobis_iOS_ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neobis_iOS_ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0428DD0B2A7F7EC500327B12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0428DD0D2A7F7EC500327B12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0428DD0F2A7F7EC500327B12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0428DD0F2A7F7EC500327B12 /* ToDoListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewController.swift; sourceTree = "<group>"; };
 		0428DD122A7F7EC500327B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0428DD142A7F7EC600327B12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0428DD172A7F7EC600327B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0428DD192A7F7EC600327B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0428DD1E2A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neobis_iOS_ToDoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0428DD222A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neobis_iOS_ToDoAppTests.swift; sourceTree = "<group>"; };
 		0428DD282A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neobis_iOS_ToDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0428DD2C2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neobis_iOS_ToDoAppUITests.swift; sourceTree = "<group>"; };
-		0428DD2E2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neobis_iOS_ToDoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		045AF7472A7F9D1500ED0213 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		045AF7492A7F9E3700ED0213 /* AddToDoItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoItemViewController.swift; sourceTree = "<group>"; };
+		045AF74B2A7F9F2700ED0213 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		045AF74F2A7FA05800ED0213 /* TaskCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TaskCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				0428DD0A2A7F7EC500327B12 /* Neobis_iOS_ToDoApp */,
-				0428DD212A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests */,
-				0428DD2B2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests */,
 				0428DD092A7F7EC500327B12 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,32 +99,35 @@
 		0428DD0A2A7F7EC500327B12 /* Neobis_iOS_ToDoApp */ = {
 			isa = PBXGroup;
 			children = (
+				04D366E22A7F8D8B00ACFB24 /* Controlers */,
+				04D366E12A7F8D3B00ACFB24 /* Views */,
 				0428DD0B2A7F7EC500327B12 /* AppDelegate.swift */,
 				0428DD0D2A7F7EC500327B12 /* SceneDelegate.swift */,
-				0428DD0F2A7F7EC500327B12 /* ViewController.swift */,
-				0428DD112A7F7EC500327B12 /* Main.storyboard */,
 				0428DD142A7F7EC600327B12 /* Assets.xcassets */,
 				0428DD162A7F7EC600327B12 /* LaunchScreen.storyboard */,
 				0428DD192A7F7EC600327B12 /* Info.plist */,
+				045AF7472A7F9D1500ED0213 /* ToDoItem.swift */,
 			);
 			path = Neobis_iOS_ToDoApp;
 			sourceTree = "<group>";
 		};
-		0428DD212A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests */ = {
+		04D366E12A7F8D3B00ACFB24 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				0428DD222A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests.swift */,
+				0428DD112A7F7EC500327B12 /* Main.storyboard */,
+				045AF74B2A7F9F2700ED0213 /* TaskCell.swift */,
+				045AF74F2A7FA05800ED0213 /* TaskCell.xib */,
 			);
-			path = Neobis_iOS_ToDoAppTests;
+			path = Views;
 			sourceTree = "<group>";
 		};
-		0428DD2B2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests */ = {
+		04D366E22A7F8D8B00ACFB24 /* Controlers */ = {
 			isa = PBXGroup;
 			children = (
-				0428DD2C2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests.swift */,
-				0428DD2E2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITestsLaunchTests.swift */,
+				0428DD0F2A7F7EC500327B12 /* ToDoListViewController.swift */,
+				045AF7492A7F9E3700ED0213 /* AddToDoItemViewController.swift */,
 			);
-			path = Neobis_iOS_ToDoAppUITests;
+			path = Controlers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +234,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045AF7502A7FA05800ED0213 /* TaskCell.xib in Resources */,
 				0428DD182A7F7EC600327B12 /* LaunchScreen.storyboard in Resources */,
 				0428DD152A7F7EC600327B12 /* Assets.xcassets in Resources */,
 				0428DD132A7F7EC500327B12 /* Main.storyboard in Resources */,
@@ -258,8 +262,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0428DD102A7F7EC500327B12 /* ViewController.swift in Sources */,
+				045AF74A2A7F9E3700ED0213 /* AddToDoItemViewController.swift in Sources */,
+				0428DD102A7F7EC500327B12 /* ToDoListViewController.swift in Sources */,
 				0428DD0C2A7F7EC500327B12 /* AppDelegate.swift in Sources */,
+				045AF7482A7F9D1500ED0213 /* ToDoItem.swift in Sources */,
+				045AF74C2A7F9F2700ED0213 /* TaskCell.swift in Sources */,
 				0428DD0E2A7F7EC500327B12 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0428DD232A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +282,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0428DD2F2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITestsLaunchTests.swift in Sources */,
-				0428DD2D2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
