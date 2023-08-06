@@ -93,6 +93,9 @@
                                 <color key="tintColor" red="0.64118328229668209" green="0.10094335542650368" blue="0.10440833527464442" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Отмена"/>
+                                <connections>
+                                    <action selector="cancelButtonPressed:" destination="9bP-U5-KXJ" eventType="touchUpInside" id="ZZy-qk-zxu"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tk2-zp-JUl">
                                 <rect key="frame" x="16" y="93" width="361" height="40"/>
@@ -115,6 +118,9 @@
                                 <color key="tintColor" name="AccentColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Сохранить"/>
+                                <connections>
+                                    <action selector="saveButtonPressed:" destination="9bP-U5-KXJ" eventType="touchUpInside" id="4Ur-35-Izs"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Le3-l3-8Pd"/>

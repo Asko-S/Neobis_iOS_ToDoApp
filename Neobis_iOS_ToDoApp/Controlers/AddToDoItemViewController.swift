@@ -29,7 +29,7 @@ class AddTodoItemViewController: UIViewController {
     @IBAction func saveButtonPressed(_ sender: Any) {
         let newItem = ToDoItem(title: titleTextField.text ?? "", description: descriptionTextField.text ?? "")
         toDoItems.append(newItem)
-        saveToDoItems() // save updated to-do items to UserDefaults
+        saveToDoItems() 
         dismiss(animated: true, completion: nil)
     }
     

@@ -86,9 +86,9 @@ extension ToDoListViewController: UITableViewDataSource, UITableViewDelegate {
         let description = toDoItems[indexPath.row].description
         
         cell.titleLabel.text = title
-        cell.descryptionLabel.text = description
+        cell.descriptionLabel.text = description
         cell.titleLabel.numberOfLines = 0
-        cell.descryptionLabel.numberOfLines = 0
+        cell.descriptionLabel.numberOfLines = 0
         cell.accessoryType = .detailDisclosureButton
         cell.showsReorderControl = true
         
