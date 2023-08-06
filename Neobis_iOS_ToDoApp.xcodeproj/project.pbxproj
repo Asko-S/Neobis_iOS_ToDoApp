@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0428DD0C2A7F7EC500327B12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428DD0B2A7F7EC500327B12 /* AppDelegate.swift */; };
+		0428DD0E2A7F7EC500327B12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428DD0D2A7F7EC500327B12 /* SceneDelegate.swift */; };
+		0428DD102A7F7EC500327B12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428DD0F2A7F7EC500327B12 /* ViewController.swift */; };
+		0428DD132A7F7EC500327B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0428DD112A7F7EC500327B12 /* Main.storyboard */; };
+		0428DD152A7F7EC600327B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0428DD142A7F7EC600327B12 /* Assets.xcassets */; };
+		0428DD182A7F7EC600327B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0428DD162A7F7EC600327B12 /* LaunchScreen.storyboard */; };
+		0428DD232A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428DD222A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests.swift */; };
+		0428DD2D2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428DD2C2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests.swift */; };
+		0428DD2F2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428DD2E2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0428DD1F2A7F7EC600327B12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0428DD002A7F7EC500327B12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0428DD072A7F7EC500327B12;
+			remoteInfo = Neobis_iOS_ToDoApp;
+		};
+		0428DD292A7F7EC600327B12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0428DD002A7F7EC500327B12 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0428DD072A7F7EC500327B12;
+			remoteInfo = Neobis_iOS_ToDoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0428DD082A7F7EC500327B12 /* Neobis_iOS_ToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neobis_iOS_ToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0428DD0B2A7F7EC500327B12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0428DD0D2A7F7EC500327B12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0428DD0F2A7F7EC500327B12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0428DD122A7F7EC500327B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0428DD142A7F7EC600327B12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0428DD172A7F7EC600327B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0428DD192A7F7EC600327B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0428DD1E2A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neobis_iOS_ToDoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0428DD222A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neobis_iOS_ToDoAppTests.swift; sourceTree = "<group>"; };
+		0428DD282A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Neobis_iOS_ToDoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0428DD2C2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neobis_iOS_ToDoAppUITests.swift; sourceTree = "<group>"; };
+		0428DD2E2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neobis_iOS_ToDoAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0428DD052A7F7EC500327B12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0428DD1B2A7F7EC600327B12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0428DD252A7F7EC600327B12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0428DCFF2A7F7EC500327B12 = {
+			isa = PBXGroup;
+			children = (
+				0428DD0A2A7F7EC500327B12 /* Neobis_iOS_ToDoApp */,
+				0428DD212A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests */,
+				0428DD2B2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests */,
+				0428DD092A7F7EC500327B12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0428DD092A7F7EC500327B12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0428DD082A7F7EC500327B12 /* Neobis_iOS_ToDoApp.app */,
+				0428DD1E2A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests.xctest */,
+				0428DD282A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0428DD0A2A7F7EC500327B12 /* Neobis_iOS_ToDoApp */ = {
+			isa = PBXGroup;
+			children = (
+				0428DD0B2A7F7EC500327B12 /* AppDelegate.swift */,
+				0428DD0D2A7F7EC500327B12 /* SceneDelegate.swift */,
+				0428DD0F2A7F7EC500327B12 /* ViewController.swift */,
+				0428DD112A7F7EC500327B12 /* Main.storyboard */,
+				0428DD142A7F7EC600327B12 /* Assets.xcassets */,
+				0428DD162A7F7EC600327B12 /* LaunchScreen.storyboard */,
+				0428DD192A7F7EC600327B12 /* Info.plist */,
+			);
+			path = Neobis_iOS_ToDoApp;
+			sourceTree = "<group>";
+		};
+		0428DD212A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0428DD222A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests.swift */,
+			);
+			path = Neobis_iOS_ToDoAppTests;
+			sourceTree = "<group>";
+		};
+		0428DD2B2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0428DD2C2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests.swift */,
+				0428DD2E2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITestsLaunchTests.swift */,
+			);
+			path = Neobis_iOS_ToDoAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0428DD072A7F7EC500327B12 /* Neobis_iOS_ToDoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0428DD322A7F7EC600327B12 /* Build configuration list for PBXNativeTarget "Neobis_iOS_ToDoApp" */;
+			buildPhases = (
+				0428DD042A7F7EC500327B12 /* Sources */,
+				0428DD052A7F7EC500327B12 /* Frameworks */,
+				0428DD062A7F7EC500327B12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neobis_iOS_ToDoApp;
+			productName = Neobis_iOS_ToDoApp;
+			productReference = 0428DD082A7F7EC500327B12 /* Neobis_iOS_ToDoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0428DD1D2A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0428DD352A7F7EC600327B12 /* Build configuration list for PBXNativeTarget "Neobis_iOS_ToDoAppTests" */;
+			buildPhases = (
+				0428DD1A2A7F7EC600327B12 /* Sources */,
+				0428DD1B2A7F7EC600327B12 /* Frameworks */,
+				0428DD1C2A7F7EC600327B12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0428DD202A7F7EC600327B12 /* PBXTargetDependency */,
+			);
+			name = Neobis_iOS_ToDoAppTests;
+			productName = Neobis_iOS_ToDoAppTests;
+			productReference = 0428DD1E2A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0428DD272A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0428DD382A7F7EC600327B12 /* Build configuration list for PBXNativeTarget "Neobis_iOS_ToDoAppUITests" */;
+			buildPhases = (
+				0428DD242A7F7EC600327B12 /* Sources */,
+				0428DD252A7F7EC600327B12 /* Frameworks */,
+				0428DD262A7F7EC600327B12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0428DD2A2A7F7EC600327B12 /* PBXTargetDependency */,
+			);
+			name = Neobis_iOS_ToDoAppUITests;
+			productName = Neobis_iOS_ToDoAppUITests;
+			productReference = 0428DD282A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0428DD002A7F7EC500327B12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0428DD072A7F7EC500327B12 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					0428DD1D2A7F7EC600327B12 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0428DD072A7F7EC500327B12;
+					};
+					0428DD272A7F7EC600327B12 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0428DD072A7F7EC500327B12;
+					};
+				};
+			};
+			buildConfigurationList = 0428DD032A7F7EC500327B12 /* Build configuration list for PBXProject "Neobis_iOS_ToDoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0428DCFF2A7F7EC500327B12;
+			productRefGroup = 0428DD092A7F7EC500327B12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0428DD072A7F7EC500327B12 /* Neobis_iOS_ToDoApp */,
+				0428DD1D2A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests */,
+				0428DD272A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0428DD062A7F7EC500327B12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0428DD182A7F7EC600327B12 /* LaunchScreen.storyboard in Resources */,
+				0428DD152A7F7EC600327B12 /* Assets.xcassets in Resources */,
+				0428DD132A7F7EC500327B12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0428DD1C2A7F7EC600327B12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0428DD262A7F7EC600327B12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0428DD042A7F7EC500327B12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0428DD102A7F7EC500327B12 /* ViewController.swift in Sources */,
+				0428DD0C2A7F7EC500327B12 /* AppDelegate.swift in Sources */,
+				0428DD0E2A7F7EC500327B12 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0428DD1A2A7F7EC600327B12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0428DD232A7F7EC600327B12 /* Neobis_iOS_ToDoAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0428DD242A7F7EC600327B12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0428DD2F2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITestsLaunchTests.swift in Sources */,
+				0428DD2D2A7F7EC600327B12 /* Neobis_iOS_ToDoAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0428DD202A7F7EC600327B12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0428DD072A7F7EC500327B12 /* Neobis_iOS_ToDoApp */;
+			targetProxy = 0428DD1F2A7F7EC600327B12 /* PBXContainerItemProxy */;
+		};
+		0428DD2A2A7F7EC600327B12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0428DD072A7F7EC500327B12 /* Neobis_iOS_ToDoApp */;
+			targetProxy = 0428DD292A7F7EC600327B12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0428DD112A7F7EC500327B12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0428DD122A7F7EC500327B12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0428DD162A7F7EC600327B12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0428DD172A7F7EC600327B12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0428DD302A7F7EC600327B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0428DD312A7F7EC600327B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0428DD332A7F7EC600327B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5S89DFD3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Neobis_iOS_ToDoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asko.soronbekov-gmail.com.Neobis-iOS-ToDoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0428DD342A7F7EC600327B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5S89DFD3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Neobis_iOS_ToDoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asko.soronbekov-gmail.com.Neobis-iOS-ToDoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0428DD362A7F7EC600327B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5S89DFD3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asko.soronbekov-gmail.com.Neobis-iOS-ToDoAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neobis_iOS_ToDoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neobis_iOS_ToDoApp";
+			};
+			name = Debug;
+		};
+		0428DD372A7F7EC600327B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5S89DFD3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asko.soronbekov-gmail.com.Neobis-iOS-ToDoAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neobis_iOS_ToDoApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Neobis_iOS_ToDoApp";
+			};
+			name = Release;
+		};
+		0428DD392A7F7EC600327B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5S89DFD3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asko.soronbekov-gmail.com.Neobis-iOS-ToDoAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neobis_iOS_ToDoApp;
+			};
+			name = Debug;
+		};
+		0428DD3A2A7F7EC600327B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P5S89DFD3A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "asko.soronbekov-gmail.com.Neobis-iOS-ToDoAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Neobis_iOS_ToDoApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0428DD032A7F7EC500327B12 /* Build configuration list for PBXProject "Neobis_iOS_ToDoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428DD302A7F7EC600327B12 /* Debug */,
+				0428DD312A7F7EC600327B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0428DD322A7F7EC600327B12 /* Build configuration list for PBXNativeTarget "Neobis_iOS_ToDoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428DD332A7F7EC600327B12 /* Debug */,
+				0428DD342A7F7EC600327B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0428DD352A7F7EC600327B12 /* Build configuration list for PBXNativeTarget "Neobis_iOS_ToDoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428DD362A7F7EC600327B12 /* Debug */,
+				0428DD372A7F7EC600327B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0428DD382A7F7EC600327B12 /* Build configuration list for PBXNativeTarget "Neobis_iOS_ToDoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428DD392A7F7EC600327B12 /* Debug */,
+				0428DD3A2A7F7EC600327B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0428DD002A7F7EC500327B12 /* Project object */;
+}
